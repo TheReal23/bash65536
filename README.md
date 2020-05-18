@@ -1,4 +1,4 @@
-Bash implementation of popular 2048 game.
+Bash implementation of popular 65536 game.
 Controlled with arrow keys.
 
-Bugs: https://github.com/mydzor/bash2048/issues
+Bugs: https://github.com/thereal23/bash65536/issues
