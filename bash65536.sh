@@ -9,15 +9,15 @@ declare -i flag_skip # flag that prevents doing more than one operation on
 declare -i moves     # stores number of possible moves to determine if player lost 
                      # the game
 declare ESC=$'\e'    # escape byte
-declare header="Bash 2048 v1.1 (https://github.com/mydzor/bash2048)"
+declare header="Bash 2048 v1.1 (https://thereal23.github.io/bash65536)"
 
 declare -i start_time=$(date +%s)
 
 #default config
-declare -i board_size=4
-declare -i target=2048
+declare -i board_size=5
+declare -i target=65536
 declare -i reload_flag=0
-declare config_dir="$HOME/.bash2048"
+declare config_dir="$HOME/.bash65536"
 
 #for colorizing numbers
 declare -a colors
